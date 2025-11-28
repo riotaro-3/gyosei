@@ -130,7 +130,13 @@ a{
     font-size: 50px;
     position: relative;
     bottom: 20px;
-    background: linear-gradient(transparent 60%, #fbe338 30%);
+  }
+  #part {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5em;
+    text-decoration-color: #fbe338;
+    text-decoration-skip-ink: none;
+    text-underline-offset: -0.2em;
   }
   #button {
     font-size: 40px;
@@ -218,6 +224,8 @@ a{
     position: relative;
     bottom: 20px;
     white-space: pre-line;
+  }
+  #part {
     text-decoration: underline;
     text-decoration-thickness: 0.5em;
     text-decoration-color: #fbe338;
