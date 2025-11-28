@@ -19,11 +19,11 @@
     let target=document.getElementById('target');
     let result = localStorage.getItem("courseType");
     let corse = document.getElementById("corse");
+    let part = document.getElementById('part');
     let url ='https://www.shikaku-square.com/gyoseisyoshi/chujoukyu';
     if (result === "special") {
     // 苦手なしのときだけ
-    let corse2 = 'あなたに最適なコースは\n中上級合格講座です！';
-    corse.textContent = corse2;
+    part.textContent = '中級合格講座';
     target.setAttribute('href',url);
   } 
   </script>
